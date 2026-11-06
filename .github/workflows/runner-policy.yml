@@ -1,0 +1,10 @@
+name: runner-policy
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  runner-policy:
+    uses: fondomp-production/platform-workflows/.github/workflows/runner-policy.yml@921e9463b09d904678e5e07e18bb5cf2df0e92cf # v1.17.2
